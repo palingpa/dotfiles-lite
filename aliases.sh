@@ -8,3 +8,5 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ports='ss -tulpn 2>/dev/null || netstat -tulpn 2>/dev/null'
 
+
+alias reload='source ~/.bashrc 2>/dev/null || source ~/.zshrc'
